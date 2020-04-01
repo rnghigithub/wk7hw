@@ -31,10 +31,9 @@ element only contains the graphic, so JavaScript must be used to draw such.
 - webgl for 3 dimensional graphics 
 
 
-10. How can we access our drawing context once we have retrieved our canvas element by id? 
-Which built-in HTML5 canvas method does that for us 
-and what is it set on? Give me the variable name and the value it is assigned.
--
+10. 
+- We can access our drawing connected by using the HTML5 canvas built in .getContext() method. So in the index.html we have <canvas></canvas> 
+as the HTML5 element 
 
 
 11.
