@@ -6,11 +6,16 @@ ctx.beginPath();
 const centerX = canvas.width/2;
 const centerY = canvas.height/2;
 
-ctx.moveTo (10,20);
-ctx.lineTo(CenterY - 50 ,centerX + 5);
+ctx.moveTo (500,150);
+
 //one side//
+ctx.lineTo(100 , 350);
 
-ctx.lineTo(centerX + 10 ,centerY - 10);
-//other side//
+//other side// 
+ctx.lineTo(100 ,50);
 
+ctx.lineWidth = 5;
+ctx.strokeStyle = 'black'; 
+
+ctx.fillStyle = 'white';
 ctx.fill();
