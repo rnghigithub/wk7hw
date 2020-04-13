@@ -3,8 +3,11 @@
  - used for the Mac OS X Webkit component in 2004.
 
 2.  
-- It is the canvas tag/element used in HTML5 that is used to draw graphics via JavaScript. However, the canvas 
-element only contains the graphic, so JavaScript must be used to draw such. 
+- canvas tag/element an HTML5 element that can be used to draw graphics usiNG JavaScript. the canvas element only cotians the graphics, 
+JavaScript must be used to draw graphics. It can be used to draw graphs, combine photos or create animations. 
+2d stands for 2 dimensional
+
+
 
 3. 
  - It can be as simple as <canvas></canvas>
