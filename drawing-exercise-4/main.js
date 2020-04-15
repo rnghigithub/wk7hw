@@ -9,12 +9,13 @@ if (canvas.getContext) {
     para.textContent = 'Browser does not support HTML5 Canvas';
  }
 
- var centerX = canvas.width/2;
- var centerY = canvas.height/2;
+ var centerX = canvas.width / 2;
+ var centerY = canvas.height / 2;
 
- ctx.fillStyle(252, 101, 2);
- ctx.fillRect(300, 200);
- ctx.clearRect(200, 180);
- ctx.strokeRect(315, 215);
+ ctx.fillStyle= "rgb(255, 101, 2)";
+
+ ctx.fillRect(centerX - 50, centerY - 45, 100, 80, 50);
+ ctx.clearRect(centerX- 15, centerY - 15, 30, 23, 89);
+ ctx.strokeRect(centerX - 135, centerY - 80, 250, 150, 76 );
 
  ctx.fill();
